@@ -26,4 +26,15 @@ public class HelloUniverse {
     public static void doNothing() {
         // literally do nothing in here
     }
+
+    /**
+     * This function outputs 100 lines of values.
+     */
+    public static void doSomething() {
+        // Do something here
+
+        for (int i = 0; i < 100; i++) {
+            System.out.println("Printing value: " + i);
+        }
+    }
 }
