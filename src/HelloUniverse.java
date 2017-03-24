@@ -10,10 +10,27 @@ public class HelloUniverse {
 
     public static void main(String[] args) {
         System.out.println("Hello Universe");
-	output();
+        output();
+        doSomething();
+        doNothing();
     }
 
-    public static String output() {
+    public static void output() {
         System.out.println("I'm a lot bigger than a world!");
-}
+    }
+
+    /**
+     * This function will do something.
+     */
+    public static void doSomething() {
+        System.out.println("Doing Something.");
+    }
+
+    /**
+     * This function will do nothing. It will also have merge issues with
+     * different branches.
+     */
+    public static void doNothing() {
+
+    }
 }
