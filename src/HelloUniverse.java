@@ -9,6 +9,11 @@
 public class HelloUniverse {
 
     public static void main(String[] args) {
-	System.out.println("Hello Universe");
+        System.out.println("Hello Universe");
+	output();
     }
+
+    public static String output() {
+        System.out.println("I'm a lot bigger than a world!");
+}
 }
